@@ -3,22 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>1000 часов</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Work+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="style.css">
 
   <meta name="theme-color" content="#fafafa">
@@ -49,7 +41,7 @@
           <div class="block_first">
             <div class="text">измерь <br> время <br>обучения</div>
             <div class="button">
-              Начать
+              <a href="#timer" class="main-nav__link">Начать</a>
             </div>
           </div>
           <div class="block_image">
@@ -62,7 +54,7 @@
 
     </div>
 
-    <div id="about_project" class="about_project">
+    <section id="about_project" class="about_project">
       <div class="contain">
         <div class="about_project_title">
           о проекте
@@ -83,9 +75,9 @@
           <img height="45" src="img/icon3.png">
         </div>
       </div>
-    </div>
+    </section>
 
-    <div id="rules_project" class="rules_project">
+    <section id="rules_project" class="rules_project">
        <div class="contain">
         <div class="rules_project_title">
           правила
@@ -114,13 +106,56 @@
          </div>
 
       </div>
-    </div>
+    </section>
 
+    <section id="timer" class="timer">
+      <div class="contain">
 
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+        <div class="timer_topic">
+          осталось
+        </div>
+
+        <div class="timer_clock">
+
+          <div class="month">
+            <div class="month_number number">1</div>
+            <div class="month_text text">месяц</div>
+          </div>
+
+          <div class="days">
+            <div class="days_number number">30</div>
+            <div class="days_text text">дней</div>
+          </div>
+
+          <div class="hours">
+            <div class="hours_number number">24</div>
+            <div class="hours_text text">часов</div>
+          </div>
+
+          <div class="minutes">
+            <div class="minutes_number number">60</div>
+            <div class="minutes_text text">минут</div>
+          </div>
+
+          <div class="seconds">
+            <div class="seconds_number number">60</div>
+            <div class="seconds_text text">секунд</div>
+          </div>
+
+        </div>
+
+        <div class="timer_button">
+
+          <div class="button_start">
+            Начать
+          </div>
+          <div class="button_stop">
+            стоп
+          </div>
+
+        </div>
+      </div>
+    </section>
 
 </body>
 

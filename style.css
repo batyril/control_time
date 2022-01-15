@@ -1,4 +1,4 @@
-@import "css/normalize.css";
+@import "normalize.css";
 * {
   margin: 0px;
   padding: 0px;
@@ -75,6 +75,10 @@
   width: 150px;
   cursor: pointer;
 }
+.first_page .contain .first_page_block .block_first .button a {
+  color: white;
+  text-decoration: none;
+}
 .first_page .contain .first_page_block .block_first .button:hover {
   transform: scale(1.05);
   transition: 0.5s;
@@ -149,6 +153,72 @@
 .rules_project .contain .rules_project_icon img {
   display: block;
   margin: 30px auto;
+}
+
+.timer {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  min-height: 500px;
+}
+.timer .contain .timer_topic {
+  color: black;
+  text-align: center;
+  font-size: 99px;
+  font-weight: lighter;
+}
+.timer .contain .timer_clock {
+  margin-top: 50px;
+  display: flex;
+  font-size: 40px;
+  justify-content: space-around;
+}
+.timer .contain .timer_clock .number {
+  font-size: 140px;
+}
+.timer .contain .timer_clock .text {
+  text-transform: uppercase;
+}
+.timer .contain .timer_button {
+  margin-top: 90px;
+  margin-bottom: 30px;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.timer .contain .timer_button .button_start {
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 70px;
+  width: 170px;
+  border: 2px solid white;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+.timer .contain .timer_button .button_start:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.timer .contain .timer_button .button_stop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 170px;
+  border: 2px solid white;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  margin-right: 250px;
+  cursor: pointer;
+}
+.timer .contain .timer_button .button_stop:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */
