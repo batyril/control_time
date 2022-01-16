@@ -182,40 +182,22 @@
   margin-bottom: 30px;
   display: flex;
   text-transform: uppercase;
-  justify-content: space-between;
-  font-size: 24px;
+  justify-content: center;
+  font-size: 35px;
 }
-.timer .contain .timer_button .button_start {
-  margin-left: 250px;
+.timer .contain .timer_button .button_start_stop {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  height: 70px;
-  width: 170px;
+  height: 100px;
+  width: 320px;
   border: 2px solid white;
   background-color: #4CAF50;
   color: white;
   cursor: pointer;
 }
-.timer .contain .timer_button .button_start:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-.timer .contain .timer_button .button_stop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70px;
-  width: 170px;
-  border: 2px solid white;
-  background-color: red;
-  color: white;
-  border-radius: 20px;
-  margin-right: 250px;
-  cursor: pointer;
-}
-.timer .contain .timer_button .button_stop:hover {
+.timer .contain .timer_button .button_start_stop:hover {
   transform: scale(1.05);
   transition: 0.5s;
 }
